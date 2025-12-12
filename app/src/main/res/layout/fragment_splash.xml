@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/teal_background">
+
+
+    <ImageView
+        android:id="@+id/imageSplashIcon"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/winkcat"
+        android:contentDescription="App logo"
+        android:scaleType="fitCenter" />
+
+
+    <TextView
+        android:id="@+id/textSplashTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Closet"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/teal_on_background" />
+
+    <TextView
+        android:id="@+id/textSplashSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Tap to open your wardrobe"
+        android:textSize="16sp"
+        android:textColor="@color/teal_hint" />
+
+    <Button
+        android:id="@+id/buttonEnterCloset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Open Closet"
+        style="@style/TealButton" />
+</LinearLayout>
+

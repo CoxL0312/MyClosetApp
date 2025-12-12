@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Soft pastel palette -->
+    <color name="pastel_pink">#FFD6E8</color>
+    <color name="pastel_blue">#D8EEFF</color>
+    <color name="pastel_mint">#DAFFE5</color>
+    <color name="pastel_lavender">#E7DFFF</color>
+    <color name="pastel_yellow">#FFF9D6</color>
+    <color name="pastel_gray">#F4F4F4</color>
+
+
+    <color name="blue_text">#0c0935</color>
+    <color name="blue_two">#395A7f</color>
+    <color name="blue_three">#6E9FC1</color>
+    <color name="blue_four">#A3CAE9</color>
+    <color name="blue_five">#E9ECEE</color>
+    <color name="blue_six">#ACACAC</color>
+
+
+    <!-- Core teal palette -->
+    <color name="teal_primary">#00897B</color>        <!-- main teal -->
+    <color name="teal_primary_dark">#00695C</color>   <!-- darker for status bar/etc -->
+    <color name="teal_primary_light">#B2DFDB</color>  <!-- light accents / chips -->
+
+    <color name="teal_accent">#00B8D4</color>         <!-- accent / FAB / highlights -->
+
+    <!-- Surfaces & backgrounds -->
+    <color name="teal_background">#E0F2F1</color>     <!-- app background -->
+    <color name="teal_surface">#FFFFFF</color>        <!-- cards, panels, rows -->
+    <color name="teal_divider">#80CBC4</color>        <!-- subtle borders/lines -->
+
+    <!-- Text colors -->
+    <color name="teal_on_primary">#FFFFFF</color>     <!-- text on primary buttons -->
+    <color name="teal_on_background">#00251A</color>  <!-- main text on background -->
+    <color name="teal_on_surface">#00332A</color>     <!-- text on cards/panels -->
+    <color name="teal_hint">#5F8C84</color>           <!-- hint/secondary text -->
+
+    <!-- Status / misc colors -->
+    <color name="error_red">#D32F2F</color>
+    <color name="success_green">#2E7D32</color>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App-wide theme -->
+    <style name="Theme.MyCloset" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Core AppCompat colors -->
+        <item name="colorPrimary">@color/teal_primary</item>
+        <item name="colorPrimaryDark">@color/teal_primary_dark</item>
+        <item name="colorAccent">@color/teal_accent</item>
+
+        <!-- Window / background -->
+        <item name="android:windowBackground">@color/teal_background</item>
+
+        <!-- Default text colors -->
+        <item name="android:textColorPrimary">@color/teal_on_background</item>
+        <item name="android:textColorSecondary">@color/teal_hint</item>
+
+        <!-- Wire our custom widget styles (optional but nice) -->
+        <item name="buttonStyle">@style/TealButton</item>
+        <item name="android:buttonStyle">@style/TealButton</item>
+
+        <item name="android:editTextStyle">@style/TealEditText</item>
+        <item name="editTextStyle">@style/TealEditText</item>
+
+        <item name="spinnerStyle">@style/TealSpinner</item>
+        <item name="android:spinnerStyle">@style/TealSpinner</item>
+    </style>
+
+</resources>

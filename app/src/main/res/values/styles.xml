@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Teal primary button -->
+    <style name="TealButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/teal_button_rounded</item>
+        <item name="android:textColor">@color/teal_on_primary</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+
+    <!-- Secondary / subtle button (e.g., cancel) -->
+    <style name="TealButton.Outlined" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/teal_button_outline</item>
+        <item name="android:textColor">@color/teal_primary</item>
+    </style>
+
+
+    <!-- EditText with teal tint + soft background -->
+    <style name="TealEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/teal_on_surface</item>
+        <item name="android:textColorHint">@color/teal_hint</item>
+        <item name="android:backgroundTint">@color/teal_primary</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <!-- Spinner styled to match inputs -->
+    <style name="TealSpinner" parent="Widget.AppCompat.Spinner">
+        <item name="android:popupBackground">@color/teal_surface</item>
+        <item name="android:backgroundTint">@color/teal_primary</item>
+    </style>
+
+    <!-- Simple card/panel container style for rows or fragments -->
+    <style name="TealCard">
+        <item name="android:background">@color/teal_surface</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+</resources>
